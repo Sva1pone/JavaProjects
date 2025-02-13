@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
-    static final String KEY = "sekret";
-    static final String ALPHABET = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя?,. ";
+    static final String KEY = "секрет";
+    static final String ALPHABET = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя ";
     static final Scanner scanner = new Scanner(System.in);
     public static int shift = 0;
 
@@ -10,7 +10,9 @@ public class Main {
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < text.length(); i++) {
-            result.append((char) (text.charAt(i) ^ KEY.charAt(i % KEY.length())));
+            int num_text_char = ALPHABET.indexOf(text.charAt(i));
+            int num_key_char = ALPHABET.indexOf(KEY.charAt(i % KEY.length()));
+            result.append(ALPHABET.charAt((num_text_char ^ num_key_char) % ALPHABET.length()));
         }
 
         return result.toString();
