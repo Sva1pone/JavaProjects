@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc621e73-ce44-45d1-804c-0ae5bc32c63f" name="Changes" comment="Загрузка файлов">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="cc621e73-ce44-45d1-804c-0ae5bc32c63f" name="Changes" comment="Загрузка файлов" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,12 +19,12 @@
     &quot;assignee&quot;: &quot;Sva1pone&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sva1pone/JavaProjects&quot;,
-    &quot;accountId&quot;: &quot;5fd86e1f-baea-4f72-87e7-23195de70de9&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sva1pone/JavaProjects.git",
+    "accountId": "60c8bb42-d247-425e-8946-4f74bb172cb7"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -84,7 +81,7 @@
       <workItem from="1739458790948" duration="80000" />
       <workItem from="1739711035246" duration="1305000" />
       <workItem from="1740227035998" duration="3904000" />
-      <workItem from="1740594878357" duration="3626000" />
+      <workItem from="1740594878357" duration="3856000" />
     </task>
     <task id="LOCAL-00001" summary="Загрузка файлов">
       <option name="closed" value="true" />
@@ -110,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739712309368</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Загрузка файлов">
+      <option name="closed" value="true" />
+      <created>1740598607589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740598607589</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
