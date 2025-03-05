@@ -32,7 +32,7 @@ public class Main {
             int encrypted_char = num_text_char ^ num_key_char;
 
             // Проверяем, есть ли символ в алфавите
-            if (num_text_char != -1 && num_key_char != -1) {
+            if (num_text_char != -1 && num_key_char != -1 && encrypted_char <= ALPHABET.length()) {
                 // Добавляем зашифрованный символ, если оба символа есть в алфавите
                 result.append(ALPHABET.charAt(encrypted_char));
             } else {
